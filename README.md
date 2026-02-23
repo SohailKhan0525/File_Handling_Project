@@ -1,151 +1,77 @@
-## 📁 File Handling System (Python CLI + Streamlit Web App)
+## 📁 File Handling System (Python CLI)
 
-A complete File Handling System built in Python — featuring both a Command-Line Interface (CLI) and a modern Streamlit Web App.
-This project allows users to create, read, and delete files, with the option to use either the terminal-based version or the interactive web interface.
-
+A simple File Handling System built in Python with a Command-Line Interface (CLI).
+This project allows users to create, read, and delete files directly from the terminal.
 
 ---
 
 ## 📌 Project Overview
 
-This repository contains two versions of the File Handling System:
+🖥️ CLI Version — `file_project.py`
 
-🖥️ 1. CLI Version — file_handling.py
+A menu-driven program that runs in the terminal.
 
-A menu-based program that runs in the terminal.
+**Features:**
 
-Features:
-
-Create files
-
-Read file content
-
-Delete files
-
-List all files & folders
-
-Error handling and validations
-
-
-🌐 2. Streamlit Web App — app.py
-
-A user-friendly web interface for file management.
-
-Features:
-
-Create files with optional content
-
-Read text files
-
-Delete files
-
-View all files and folders
-
-Clean UI with buttons, radio menu, and text fields
-
-
-
----
-
-## 🌐 Live Demo
-
-👉 Add your Streamlit deployed link here
-
+- List all files & folders in the current directory
+- Create a new file with custom content
+- Read the content of an existing file
+- Delete a file
+- Error handling and input validations
 
 ---
 
 ## 🛠️ Technologies Used
 
-Python
-
-Streamlit (for web app)
-
-Pathlib
-
-OS module
-
-
+- Python
+- `pathlib` module
+- `os` module
 
 ---
 
-
 ## 🧠 What I Learned
 
-Working with files & directories using Pathlib
-
-Creating & deleting files safely
-
-Reading file contents with Python
-
-Building menu-driven CLI applications
-
-Creating an interactive UI using Streamlit
-
-Handling errors and validating inputs
-
-Refreshing Streamlit UI using st.rerun()
-
-Displaying alerts, code blocks, and lists in Streamlit
-
-
+- Working with files & directories using `pathlib`
+- Creating & deleting files safely
+- Reading file contents with Python
+- Building menu-driven CLI applications
+- Handling errors and validating user inputs
 
 ---
 
 ## ▶️ How to Run
 
+1. Make sure Python is installed on your system.
+
+2. Run the script:
+
+```bash
+python file_project.py
+```
+
+3. You will see an interactive menu:
+
+```
+**************************
+Press '1' to create a file
+Press '2' to read a file
+Press '3' to delete a file
+Press '4' to quit the program
+**************************
+```
+
+4. Enter the corresponding number to perform the desired operation.
 
 ---
 
-1️⃣ Run CLI Version
+## 📜 Features
 
-Install Python (if not installed).
-
-Then run:
-
-python file_handling.py
-
-You will see options like:
-
-Create File
-
-Read File
-
-Delete File
-
-Quit
-
-
-
----
-
-2️⃣ Run Streamlit App
-
-Install Streamlit:
-
-pip install streamlit
-
-Run the app:
-
-streamlit run app.py
-
-Your browser will open automatically.
-
-
----
-
-## 📜 Features Comparison
-
-Feature	CLI Version	Streamlit Version
-
-Create File	✔	✔
-Read File	✔	✔
-Delete File	✔	✔
-List Files/Folders	✔	✔
-UI	Terminal	Web UI
-Error Handling	Basic	Improved
-File Selection	Manual	Dropdown
-Visual Output	Text-only	Code blocks, formatting
-
-
+| Feature              | Supported |
+|----------------------|-----------|
+| List Files & Folders | ✔         |
+| Create File          | ✔         |
+| Read File            | ✔         |
+| Delete File          | ✔         |
+| Error Handling       | ✔         |
 
 ---
